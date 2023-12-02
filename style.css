@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+/* *,html{
+    margin:0;
+    padding:0;
+} */
+
+body{
+    background: #23252C;
+    height:100vh;
+    font-family: Inter, sans-serif;
+    color: #DCDCDC;
+}
+
+.app{
+    background: #1A1B21;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:320px;
+}
+header{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header-img{
+    background-size:cover;
+    background-position: center;
+    height:320px;
+    width:320px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.career,
+.name,
+.website,
+.interests-title,
+.about-title{
+    margin:0;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+}
+.name{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.career{
+    margin-top:6px;
+    color: #F3BF99;
+    text-align: center;
+    font-size: 12.8px;
+    font-weight: 400;
+}
+
+
+.website{
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top:8px;
+}
+
+.social{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:17px;
+    margin-top:16px;
+    
+}
+.mail-container,.linkedin-container{
+     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    width:115px; 
+    height:35px;
+}
+.mail-container{
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+  
+}
+.social-text-one,
+.social-text-two{
+     font-size: 14px;
+    font-weight: 500;
+    line-height: 16px; 
+}
+.social-text-one{
+    color: #374151;  
+}
+.linkedin-container{
+   border-radius: 6px;
+    background: #5093E2;
+}
+.social-text-two{
+    color: #FFF;
+}
+
+.social-img{
+    height:16px;
+    width:16px;
+}
+
+.about{
+    margin-top:33px;
+}
+.interests{
+    margin-top:27px;
+}
+.about,
+.interests{
+font-size: 10.24px;
+font-weight: 400;
+line-height: 150%;
+padding: 0 36px;
+}
+
+.about-title,
+.interests-title{
+font-size: 16px;
+font-weight: 700;
+line-height: 70%; 
+}
+.footer{
+margin-top:26px;
+border-radius: 0px 0px 10px 10px;
+background: #161619;
+height:64px;
+display:flex;
+width:100%;
+align-items: center;
+justify-content: center;
+gap:24px;
+}
+
+.footer > img {
+    height:25px;
+}
